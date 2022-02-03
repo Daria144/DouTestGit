@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DOU-ALL-suite]">
+  <test name="dou-all-test(failed)">
+    <groups>
+      <run>
+        <include name="ALLTests"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SearchTestDou">
+        <methods>
+          <include name="failedPagination"/>
+          <include name="cleanSearchField"/>
+          <include name="runChromeDriverAndNavigateToDou"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- SearchTestDou -->
+    </classes>
+  </test> <!-- dou-all-test(failed) -->
+</suite> <!-- Failed suite [DOU-ALL-suite] -->

@@ -18,7 +18,7 @@ public class SearchTestDou {
     WebDriver driver;
     WebElement searchField;
 
-    @BeforeTest
+    @BeforeMethod(alwaysRun = true)
     public void runChromeDriverAndNavigateToDou(){
         System.setProperty("webdriver.chrome.driver","/Users/daria_yatsenko/Documents/chromedriver");
         driver = new ChromeDriver();
@@ -29,7 +29,7 @@ public class SearchTestDou {
         searchField = driver.findElement(By.id("gsc-i-id1"));
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
-   @AfterMethod
+   @AfterMethod(alwaysRun = true)
     public void cleanSearchField(){
         searchField.clear();
     }
@@ -50,9 +50,9 @@ public class SearchTestDou {
     }
 
     @Test
-    //        (groups="ContainsSearchedKeyword",
-    //dataProvider = "keywords")
-    public void resultsContainsSearchedKeyword(){
+            (groups="ContainsSearchedKeyword",
+    dataProvider = "keywords")
+    public void resultsContainsSearchedKeyword(String keywords){
         String keyword="qa";
         int resultsCount=0;
         searchField.sendKeys(keyword);
@@ -63,8 +63,9 @@ public class SearchTestDou {
                 resultsCount++;
             }
         }
-        assertEquals(resultsCount,searchedResult.size(),"All results from search list contains keyword");
 
+        assertEquals(resultsCount,searchedResult.size(),"All results from search list contains keyword");
+        searchedResult.clear();
     }
 
     @Test
@@ -89,7 +90,7 @@ public class SearchTestDou {
         boolean searchIsEmpty = driver.findElements(By
                         .xpath("//*[@class=\"gsc-expansionArea\"]//*[@class=\"gs-title\"]/a"))
                 .isEmpty();
-        assertTrue(searchIsEmpty,"Fail in rearch result is NOT NULL");
+        assertFalse(searchIsEmpty,"Fail in rearch result is NOT NULL");
     }
 
     @Test
@@ -99,12 +100,14 @@ public class SearchTestDou {
         int expectedSize=10;
         searchField.sendKeys(query);
         searchField.sendKeys(Keys.ENTER);
+
         List<WebElement> paginationPages = driver.findElements(By.xpath("//*[@class=\"gsc-cursor\"]//div"));
-        assertNotEquals(paginationPages.size(),expectedSize,"Fail if size not 10");
+        assertNotEquals(paginationPages.size(),expectedSize,"Fail if size is 10");
+        paginationPages.clear();
 
     }
 
-    @AfterClass(alwaysRun = true)
+    @AfterMethod(alwaysRun = true)
     public void closeDriver(){
         driver.quit();
     }

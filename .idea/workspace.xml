@@ -4,11 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e28d308c-6d03-4d96-abf0-1c077c49c5e2" name="Changes" comment="" />
+    <list default="true" id="e28d308c-6d03-4d96-abf0-1c077c49c5e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/test-output/DOU-ALL-suite/dou-all-test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/DOU-ALL-suite/dou-all-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/DOU-ALL-suite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-SearchTestDou.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/DOU-ALL-suite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/DOU-ALL-suite/dou-all-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/DOU-ALL-suite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/DOU-ALL-suite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/DOU-ALL-suite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/DOU-ALL-suite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/DOU-ALL-suite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/DOU-ALL-suite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/DOU-ALL-suite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/DOU-ALL-suite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/DOU-ALL-suite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SearchTestDou.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTestDou.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SearchTestDou.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SearchTestDou.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -21,11 +58,13 @@
     </option>
   </component>
   <component name="ProjectId" id="24TZsBWMVOBpg7ZYm9OIvCIcdXk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="module" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -36,23 +75,24 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SearchTestDou">
-    <configuration name="SearchTestDou" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SearchTestDou.resultsContainsSearchedKeyword">
+    <configuration name="SearchTestDou.failedPagination" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DouTest_5-6_lessons" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SearchTestDou" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="failedPagination" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTestDou.displayTotalNumberOfSearchedResults" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTestDou.failedSearchResult" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DouTest_5-6_lessons" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SearchTestDou" />
-      <option name="METHOD_NAME" value="displayTotalNumberOfSearchedResults" />
+      <option name="METHOD_NAME" value="failedSearchResult" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -84,21 +124,38 @@
     </configuration>
     <configuration name="/Users/daria_yatsenko/IdeaProjects/DouTest_5-6_lessons/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DouTest_5-6_lessons" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG./Users/daria_yatsenko/IdeaProjects/DouTest_5-6_lessons/testNG-onlyHP.xml" />
+      <item itemvalue="TestNG./Users/daria_yatsenko/IdeaProjects/DouTest_5-6_lessons/testNG.xml" />
+      <item itemvalue="TestNG.SearchTestDou.failedPagination" />
+      <item itemvalue="TestNG.SearchTestDou.failedSearchResult" />
+      <item itemvalue="TestNG.SearchTestDou.resultsContainsSearchedKeyword" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SearchTestDou" />
         <item itemvalue="TestNG.SearchTestDou.resultsContainsSearchedKeyword" />
+        <item itemvalue="TestNG.SearchTestDou.failedSearchResult" />
+        <item itemvalue="TestNG.SearchTestDou.failedPagination" />
         <item itemvalue="TestNG./Users/daria_yatsenko/IdeaProjects/DouTest_5-6_lessons/testNG.xml" />
         <item itemvalue="TestNG./Users/daria_yatsenko/IdeaProjects/DouTest_5-6_lessons/testNG-onlyHP.xml" />
-        <item itemvalue="TestNG.SearchTestDou.displayTotalNumberOfSearchedResults" />
       </list>
     </recent_temporary>
   </component>
@@ -112,5 +169,32 @@
       <updated>1643656745107</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SearchTestDou.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SearchTestDou.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
