@@ -1,0 +1,17 @@
+<suite name="DOU-NP-suite" verbose="1">
+    <test name="Dou-NP">
+    <groups>
+        <define name="NPTests">
+            <include name="FailedSearchResult"/>
+            <include name="FailedPagination"/>
+        </define>
+        <run>
+            <include name="NPTests"/>
+        </run>
+        <classes>
+            <class name ="SearchTestDou"/>
+        </classes>
+
+    </groups>
+</test>
+</suite>

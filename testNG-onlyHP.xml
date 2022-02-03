@@ -1,0 +1,18 @@
+<suite name="DOU-HP-suite" verbose="1">
+    <test name="Dou-HP">
+    <groups>
+        <define name="HPTests">
+            <include name="NumberOfSearchedResults"/>
+            <include name="ContainsSearchedKeyword"/>
+            <include name="ClearedSearchedQuery"/>
+        </define>
+        <run>
+            <include name="HPTests"/>
+        </run>
+        <classes>
+            <class name ="SearchTestDou"/>
+        </classes>
+
+    </groups>
+</test>
+</suite>

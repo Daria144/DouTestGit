@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e28d308c-6d03-4d96-abf0-1c077c49c5e2" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="24TZsBWMVOBpg7ZYm9OIvCIcdXk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.SearchTestDou">
+    <configuration name="SearchTestDou" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DouTest_5-6_lessons" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchTestDou" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTestDou.displayTotalNumberOfSearchedResults" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DouTest_5-6_lessons" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchTestDou" />
+      <option name="METHOD_NAME" value="displayTotalNumberOfSearchedResults" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTestDou.resultsContainsSearchedKeyword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DouTest_5-6_lessons" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchTestDou" />
+      <option name="METHOD_NAME" value="resultsContainsSearchedKeyword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/daria_yatsenko/IdeaProjects/DouTest_5-6_lessons/testNG-onlyHP.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DouTest_5-6_lessons" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG-onlyHP.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/daria_yatsenko/IdeaProjects/DouTest_5-6_lessons/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DouTest_5-6_lessons" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SearchTestDou" />
+        <item itemvalue="TestNG.SearchTestDou.resultsContainsSearchedKeyword" />
+        <item itemvalue="TestNG./Users/daria_yatsenko/IdeaProjects/DouTest_5-6_lessons/testNG.xml" />
+        <item itemvalue="TestNG./Users/daria_yatsenko/IdeaProjects/DouTest_5-6_lessons/testNG-onlyHP.xml" />
+        <item itemvalue="TestNG.SearchTestDou.displayTotalNumberOfSearchedResults" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e28d308c-6d03-4d96-abf0-1c077c49c5e2" name="Changes" comment="" />
+      <created>1643656745107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643656745107</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<suite name="DOU-ALL-suite" verbose="1">
+<test name="dou-all-test">
+    <groups>
+        <define name="ALLTests">
+            <include name="NumberOfSearchedResults"/>
+            <include name="ContainsSearchedKeyword"/>
+            <include name="ClearedSearchedQuery"/>
+            <include name="FailedSearchResult"/>
+            <include name="FailedPagination"/>
+        </define>
+        <run>
+            <include name="ALLTests"/>
+        </run>
+        <classes>
+            <class name ="SearchTestDou"/>
+        </classes>
+
+    </groups>
+</test>
+</suite>
