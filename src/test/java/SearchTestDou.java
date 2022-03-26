@@ -92,6 +92,17 @@ public class SearchTestDou {
                 .isEmpty();
         assertFalse(searchIsEmpty,"Fail in rearch result is NOT NULL");
     }
+        @Test
+            (groups = "PassedSearchResult")
+    public void passedSearchResult(){
+        String query="%";
+        searchField.sendKeys(query);
+        searchField.sendKeys(Keys.ENTER);
+        boolean searchIsEmpty = driver.findElements(By
+                        .xpath("//*[@class=\"gsc-expansionArea\"]//*[@class=\"gs-title\"]/a"))
+                .isEmpty();
+        assertTrue(searchIsEmpty,"Pass in rearch result is NOT NULL");
+    }
 
     @Test
             (groups = "FailedPagination")
