@@ -106,6 +106,18 @@ public class SearchTestDou {
         paginationPages.clear();
 
     }
+    @Test
+    public void passedPagination(){
+        String query="s";
+        int expectedSize=10;
+        searchField.sendKeys(query);
+        searchField.sendKeys(Keys.ENTER);
+
+        List<WebElement> paginationPages = driver.findElements(By.xpath("//*[@class=\"gsc-cursor\"]//div"));
+        assertEquals(paginationPages.size(),expectedSize,"Fail if size is 10");
+        paginationPages.clear();
+
+    }
 
     @AfterMethod(alwaysRun = true)
     public void closeDriver(){
